@@ -11,3 +11,5 @@ h.each do |ele|
   end
 end
 p ans
+
+#zipで解答作成する
