@@ -1,3 +1,3 @@
-N, K = gets.chop.split.map(&:to_i)
+n,k=gets.chop.split.map(&:to_i)
 
-puts N - K + 1
+puts n-k+1
