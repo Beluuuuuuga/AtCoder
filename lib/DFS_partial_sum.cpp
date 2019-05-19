@@ -9,7 +9,7 @@ int n, k;
 
 bool dfs(int i, int sum){
   cout << i << " " << sum << endl;
-  if (i == n) return sum == k;
+  if (i == n) return sum == k; //sum==kで条件式を書いていて、sum==kの時にtrueを返すようになっている
   if (dfs(i + 1, sum)) return true;
   if (dfs(i + 1, sum + a[i])) return true;
   return false;
