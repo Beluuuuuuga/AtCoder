@@ -9,4 +9,4 @@ s.each do |e|
 		res.pop
 	end
 end
-puts res.join
+puts res
